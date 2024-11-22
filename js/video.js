@@ -11,7 +11,7 @@ window.addEventListener("load", function() {
 
 	document.querySelector("#play").addEventListener("click", function() {
 		console.log("Play Video");
-		document.querySelector("#volume").innerHTML = // set to the video volume + %
+		// document.querySelector("#volume").innerHTML = // set to the video volume + %
 		video.play();
 	});
 
@@ -21,27 +21,27 @@ window.addEventListener("load", function() {
 		vid.pause();
 	});
 
-	document.querySelector("#slower").addEventListener("click", function() {
-		console.log("slow down video");
-		video.playbackRate *= ;// slow down 10%
-	})
+// 	document.querySelector("#slower").addEventListener("click", function() {
+// 		console.log("slow down video");
+// 		video.playbackRate *= ;// slow down 10%
+// 	})
 
-	document.querySelector("#mute").addEventListener("click", function() {
-		if (video.muted == true){
-			console.log("muted");
-			video.muted = false;
-			this.innerHTML = // change to mute
-		}
-		else{
-		if (video.muted == false) {
+// 	document.querySelector("#mute").addEventListener("click", function() {
+// 		if (video.muted == true){
+// 			console.log("muted");
+// 			video.muted = false;
+// 			this.innerHTML = // change to mute
+// 		}
+// 		else{
+// 		if (video.muted == false) {
 
 
-		}
-		}
-	})
+// 		}
+// 		}
+// 	})
 
-	document.querySelector("#slider").addEventListener("change", function() {
-});
+// 	document.querySelector("#slider").addEventListener("change", function() {
+// });
 
 
 
