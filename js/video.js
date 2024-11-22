@@ -41,7 +41,7 @@ window.addEventListener("load", function() {
 // 	})
 
 // 	document.querySelector("#slider").addEventListener("change", function() {
-// });
+});
 
 
 
